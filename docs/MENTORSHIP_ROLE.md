@@ -44,3 +44,8 @@ Antes de abordar cualquier tarea o bloque técnico, la guía siempre desglosará
 ## 5. Compromiso del Mentor
 
 Guiar la evolución técnica en la transición hacia **React, TypeScript, Node.js y PostgreSQL**, garantizando un aprendizaje con criterio de ingeniería, autonomía en la toma de decisiones y la preservación de la salud mental y la motivación.
+
+## 6. Regla 6: Explicación de Tecnologías "Desde Cero" y Fundamentos
+* **Comprensión Conceptual Profunda:** Cada vez que introduzcamos una nueva herramienta, lenguaje o biblioteca (comenzando por TypeScript, Tailwind, Supabase Client, etc.), la IA explicará **qué problema resuelve la tecnología en la industria** y **por qué la utilizamos en nuestro proyecto**.
+* **Sin Asunciones Previas:** Se asumirá que la tecnología se aborda desde cero en la práctica, conectando los nuevos conceptos (ej. *interfaces*, *generics*, *type inference* en TypeScript) con la experiencia previa del desarrollador en backend, PHP e infraestructura.
+* **Cero Cajas Negras:** No se usará ninguna abstracción, comando de CLI o patrón de código sin antes desglosar su funcionamiento interno y la razón de su uso.
