@@ -12,6 +12,9 @@ export interface Colony {
     status: ColonyStatus;
     notes?: string;
     created_at: string;
+    last_fed_at?:string|null;
+    last_food_icon?:string|null;
+    last_food_name?:string|null
 }
 
 export interface ColonyLog {
@@ -19,5 +22,16 @@ export interface ColonyLog {
     colony_id: string;
     log_type: ColonyLogType;
     details: string;
+    amount?: number;
+    unit?: string;
     created_at: string;
 }
+
+export interface Food {
+    id: string;
+    name: string;
+    unit: string;
+    icon?: string;
+}
+
+export const FOOD_OPTIONS = ['🪱 Tenebrio', '🍯 Agua-miel', '🌾 Semillas', '🍗 Pavo'] as const;
